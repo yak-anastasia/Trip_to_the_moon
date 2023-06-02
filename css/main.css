@@ -60,3 +60,32 @@
 .main-text div a img{
   padding-left: 70px;
 }
+}
+
+.section {
+  display: flex;
+  background-color: var(--black);
+  color: var(--light-grey);
+  height: 280px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.advantages img {
+  margin-bottom: 27px;
+}
+
+.section {
+  display: flex;
+  background-color: var(--black);
+  color: var(--light-grey);
+  height: 280px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.advantages img {
+  margin-bottom: 27px;
+}
+
+
