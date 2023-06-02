@@ -60,10 +60,10 @@
 .main-text div a img{
   padding-left: 70px;
 }
-.section {
+.description {
   display: flex;
   background-color: var(--black);
-  color: var(--light-grey);
+  color: var(--text-color);
   height: 280px;
   align-items: center;
   justify-content: center;
