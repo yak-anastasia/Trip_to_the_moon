@@ -10,3 +10,13 @@
   font-family: 'VerdanaBold';
   src: url(../fonts/ofont.ru_Verdana_bold.ttf);
 }
+
+:root{
+  --dark-grey: #222222;
+  --black: #131313;
+  --white: #fff;
+  --light-grey: #f0f0f0;
+  --yellow: #feca30;
+  --dark-black: #111111;
+  --grey: #565656;
+}
