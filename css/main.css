@@ -22,11 +22,12 @@
   --text-color: #d4d4d4;
 }
 
-/* header */
+/* Header */
 #main{
   font-family: 'Verdana';
   background: var(--dark-grey);
-  height: 95vh;
+  height: 700px;
+  color: var(--white);
 }
 #menu div{
   margin-top: 84px;
@@ -39,7 +40,6 @@
 }
 .main-text div h1{
   font-size: 45px;
-  color: var(--white);
   font-family: 'Courier New';
   font-weight: bold;
 }
@@ -60,6 +60,7 @@
 .main-text div a img{
   padding-left: 70px;
 }
+/* Desription */
 .description {
   display: flex;
   background-color: var(--black);
@@ -71,4 +72,46 @@
 }
 .advantages img {
   margin-bottom: 27px;
+}
+/* Schedule */
+#flight_schedule{
+  font-family: 'Verdana';
+  height: 460px;
+  background-color: var(--dark-grey);
+  color: var(--white);
+  font-size: 14px;
+}
+#flight_schedule .row .col-6{
+  margin-top: 100px;
+}
+#flight_schedule h4{
+  font-family: 'Courier New';
+  color: var(--yellow);
+  font-weight: bold;
+  width: 50px; 
+}
+#flight_schedule p{
+  font-size: 13px;
+  color: var(--text-color);
+  width: 450px;
+}
+#flight_schedule p a{
+  color: var(--yellow);
+}
+#schedule{
+  border-collapse: collapse;
+  margin-top: 57px;
+  width: 85%;
+}
+#schedule th{
+  background-color: var(--dark-black);
+  padding: 10px 20px;
+}
+#schedule td{
+  padding: 10px 20px;
+  color: var(--text-color);
+  width: 100px;
+}
+#schedule th, td{
+  border-bottom: 1px solid var(--grey);
 }
