@@ -79,6 +79,7 @@ header{
   display: flex;
   align-items: center;
   height: 810px;
+  margin-top: 30px;
 }
 .about_company h2{
   font-family: 'Courier New';
@@ -90,8 +91,8 @@ header{
   font-size: 14px;
 }
 .about_company img{
-  width: 440px;
-  height: 348px;
+  width: 500px;
+  height: 375px;
 }
 .first_string h2, p{
   width: 440px;
@@ -116,6 +117,61 @@ header{
 }
 .second_string li span{
   color: black;
+}
+/* Form */
+.application_form{
+  display: flex;
+  align-items: center;
+  background-color: var(--light-grey);
+  height: 480px;
+}
+.application_form h2{
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+.application_form p{
+  font-family: 'Verdana';
+  font-size: 14px;
+}
+.application_form h2, p{
+  width: 340px;
+}
+.form_group input{
+  border: none;
+  margin: 5px 0;
+}
+.parameters{
+  display: flex;
+  flex-direction: row;
+}
+input{
+  padding: 15px 15px;
+  width: 440px;
+}
+.parameters input{
+  width: 215px;
+}
+.parameters input:first-child{
+  margin-right: 10px;
+}
+.agree{
+  margin: 20px 0;
+}
+.custom_checkbox{
+  height: 30px;
+  width: 30px;
+}
+button{
+  background-color: var(--dark-grey);
+  color: var(--white);
+  font-weight: bold;
+  padding: 14px 14px 14px 30px;
+  border-radius: 100px;
+}
+button img{
+  padding-left: 80px;
 }
 /* Schedule */
 #flight_schedule{
