@@ -1,12 +1,12 @@
-@font-face {
+@font-face{
   font-family: 'Courier New';
   src: url(../fonts/Courier\ New.ttf);
 }
-@font-face {
+@font-face{
   font-family: 'Verdana';
   src: url(../fonts/ofont.ru_Verdana.ttf);
 }
-@font-face {
+@font-face{
   font-family: 'VerdanaBold';
   src: url(../fonts/ofont.ru_Verdana_bold.ttf);
 }
@@ -23,7 +23,7 @@
 }
 
 /* Header */
-main{
+header{
   font-family: 'Verdana';
   background: var(--dark-grey);
   height: 700px;
@@ -61,17 +61,61 @@ main{
   padding-left: 70px;
 }
 /* Desription */
-.description {
+.description{
   display: flex;
   background-color: var(--black);
   color: var(--text-color);
-  height: 280px;
+  font-family: 'Verdana';
+  font-size: 14px;
+  height: 328px;
   align-items: center;
   justify-content: center;
-  
 }
-.advantages img {
+.advantages img{
   margin-bottom: 27px;
+}
+/* About the company */
+.about_company{
+  display: flex;
+  align-items: center;
+  height: 810px;
+}
+.about_company h2{
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 24px;
+}
+.about_company p{
+  font-family: 'Verdana';
+  font-size: 14px;
+}
+.about_company img{
+  width: 440px;
+  height: 348px;
+}
+.first_string h2, p{
+  width: 440px;
+}
+.first_string h2{
+  margin-bottom: 35px;
+}
+.second_string h2, ul{
+  width: 440px;
+}
+.second_string{
+  margin-top: 55px;
+}
+.second_string ul{
+  margin-top: 25px;
+}
+.second_string li{
+  color: var(--yellow);
+  padding-left: 15px;
+  margin-left: -15px;
+  padding-bottom: 15px;
+}
+.second_string li span{
+  color: black;
 }
 /* Schedule */
 #flight_schedule{
