@@ -186,7 +186,7 @@ button img{
   color: var(--white);
   font-size: 14px;
 }
-#flight_schedule .row .col-6{
+#flight_schedule .description_schedule .schedule_header, .schedule_text{
   margin-top: 100px;
 }
 #flight_schedule h4{
@@ -226,10 +226,10 @@ footer{
   font-size: 13px;
   height: 400px;
 }
-.footer-nav-header .col{
+.footer-nav-header .nav-header{
   margin-top: 92px; 
 }
-.footer-nav-header .col:first-child{
+.footer-nav-header .nav-header:first-child{
   margin-bottom: 15px;
 }
 .footer-nav-header a{
@@ -250,7 +250,7 @@ footer{
   margin-left: 5px;
   padding-top: 15px;
 }
-.footer-nav-link .col{
+.footer-nav-link .nav-link{
   margin-top: 30px;
 }
 .footer-nav-link span{
