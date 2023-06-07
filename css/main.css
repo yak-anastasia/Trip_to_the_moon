@@ -100,7 +100,7 @@ header{
 .first_string h2{
   margin-bottom: 35px;
 }
-.second_string h2, ul{
+.second_string h2 + ul{
   width: 440px;
 }
 .second_string{
@@ -158,10 +158,15 @@ input{
 }
 .agree{
   margin: 20px 0;
+  display: flex;
 }
 .custom_checkbox{
   height: 30px;
   width: 30px;
+}
+.custom_checkbox + label{
+  padding-left: 10px;
+  margin-top: 5px;
 }
 button{
   background-color: var(--dark-grey);
@@ -202,7 +207,6 @@ button img{
   border-collapse: collapse;
   margin-top: 57px;
   width: 1150px;
-  /* text-align: center; */
 }
 #schedule th{
   background-color: var(--dark-black);
@@ -247,7 +251,7 @@ footer{
   padding-top: 15px;
 }
 .footer-nav-link .col{
-  margin-top: 57px;
+  margin-top: 30px;
 }
 .footer-nav-link span{
   color: var(--grey);
